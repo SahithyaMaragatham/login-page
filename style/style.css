@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.left {
+    background: url('/assets/image 1.png') no-repeat center center/cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+.left h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+.left p {
+    font-size: 1.2em;
+}
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+.login-form {
+    width: 80%;
+    max-width: 400px;
+    padding: 2em;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.input-group input {
+    width: 100%;
+    padding: 0.8em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-btn {
+    padding: 0.8em 2em;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.social-login {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
